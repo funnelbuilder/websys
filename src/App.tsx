@@ -6,37 +6,37 @@ function App() {
 
   const portfolioItems = [
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/UKU_Cover.png',
+      image: '/UKU_Cover.png',
       title: 'UKU',
       category: 'Web Platform',
       description: 'Modern digital solution'
     },
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/FINEST_COVER.png',
+      image: '/FINEST_COVER.png',
       title: 'Finest',
       category: 'Web Application',
       description: 'Premium web experience'
     },
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/AUTO_COVER.png',
+      image: '/AUTO_COVER.png',
       title: 'Auto',
       category: 'Automotive Platform',
       description: 'Automotive web solution'
     },
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/ADACT_COVER.png',
+      image: '/ADACT_COVER.png',
       title: 'Adact',
       category: 'Marketing Platform',
       description: 'Interactive marketing tool'
     },
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/syntpot_gallery3.png',
+      image: '/syntpot_gallery1-1024x732.png',
       title: 'Syntpot',
       category: 'Digital Platform',
       description: 'Innovative web solution'
     },
     {
-      image: 'https://websystems.ai/wp-content/uploads/2025/04/syntpot_gallery1.png',
+      image: '/syntpot_gallery1-1024x732.png',
       title: 'Syntpot Interface',
       category: 'User Dashboard',
       description: 'Advanced interface design'
