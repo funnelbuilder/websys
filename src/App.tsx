@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Star, Users, TrendingUp, Zap, Menu, X } from 'lucide-react';
+import { ArrowRight, Check, Star, Users, TrendingUp, Zap, Menu, X, Mail, Phone } from 'lucide-react';
 import { useState } from 'react';
 
 function App() {
@@ -105,8 +105,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg"></div>
-              <span className="text-xl font-bold text-gray-900">WebSystems</span>
+              <img src="/websystems_logo_nnkw-1 (1).png" alt="WebSystems" className="h-10" />
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -384,12 +383,21 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg"></div>
-                <span className="text-xl font-bold text-white">WebSystems</span>
+                <img src="/websystems_logo_nnkw-1 (1).png" alt="WebSystems" className="h-10 brightness-0 invert" />
               </div>
-              <p className="text-sm">
+              <p className="text-sm mb-4">
                 Building digital solutions that help businesses thrive in the modern market.
               </p>
+              <div className="space-y-2">
+                <a href="mailto:kristjan@websystems.ai" className="flex items-center space-x-2 text-sm hover:text-white transition">
+                  <Mail className="w-4 h-4" />
+                  <span>kristjan@websystems.ai</span>
+                </a>
+                <a href="tel:+37259003902" className="flex items-center space-x-2 text-sm hover:text-white transition">
+                  <Phone className="w-4 h-4" />
+                  <span>+372 5900 3902</span>
+                </a>
+              </div>
             </div>
             <div>
               <h3 className="text-white font-bold mb-4">Company</h3>
