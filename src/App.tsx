@@ -104,8 +104,17 @@ function App() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <img src="/websystems_logo_nnkw-1 (1).png" alt="WebSystems" className="h-10" />
+            <div className="flex items-center space-x-3">
+              <div className="relative w-10 h-10">
+                <svg viewBox="0 0 100 100" className="w-full h-full">
+                  <circle cx="50" cy="50" r="45" fill="#2563eb" />
+                  <path d="M30 50 Q50 30 70 50 Q50 70 30 50" fill="none" stroke="white" strokeWidth="4" />
+                  <path d="M50 20 L50 80" stroke="white" strokeWidth="3" />
+                  <path d="M20 50 L80 50" stroke="white" strokeWidth="3" />
+                  <text x="50" y="58" textAnchor="middle" fill="white" fontSize="28" fontWeight="bold">WS</text>
+                </svg>
+              </div>
+              <span className="text-2xl font-bold text-gray-900">Web<span className="text-blue-600">Systems</span></span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -382,8 +391,17 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <img src="/websystems_logo_nnkw-1 (1).png" alt="WebSystems" className="h-10 brightness-0 invert" />
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="relative w-10 h-10">
+                  <svg viewBox="0 0 100 100" className="w-full h-full">
+                    <circle cx="50" cy="50" r="45" fill="white" />
+                    <path d="M30 50 Q50 30 70 50 Q50 70 30 50" fill="none" stroke="#1e293b" strokeWidth="4" />
+                    <path d="M50 20 L50 80" stroke="#1e293b" strokeWidth="3" />
+                    <path d="M20 50 L80 50" stroke="#1e293b" strokeWidth="3" />
+                    <text x="50" y="58" textAnchor="middle" fill="#1e293b" fontSize="28" fontWeight="bold">WS</text>
+                  </svg>
+                </div>
+                <span className="text-2xl font-bold text-white">Web<span className="text-blue-400">Systems</span></span>
               </div>
               <p className="text-sm mb-4">
                 Building digital solutions that help businesses thrive in the modern market.
